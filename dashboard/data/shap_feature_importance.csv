@@ -1,0 +1,17 @@
+Feature,MeanAbsoluteSHAP,Feature_SHAP_Correlation,RiskDirection
+RecencyDays,0.62082857,0.930806922064975,Higher Value → Higher Churn Risk
+PurchaseActivityRate,0.24853927,-0.4588934042612869,Higher Value → Lower Churn Risk
+MonetaryValue,0.2197858,-0.260723458351565,Higher Value → Lower Churn Risk
+PurchaseFrequency,0.1761674,-0.5667792759463023,Higher Value → Lower Churn Risk
+UniqueProducts,0.17480932,-0.7447085501517605,Higher Value → Lower Churn Risk
+AverageQuantityPerOrder,0.13067146,-0.1219470563002151,Higher Value → Lower Churn Risk
+MeanPurchaseGap,0.070840545,0.5923059291545781,Higher Value → Higher Churn Risk
+MedianPurchaseGap,0.05842586,-0.0871257386966367,Higher Value → Lower Churn Risk
+ProductsPerOrder,0.04684333,-0.4811466954218493,Higher Value → Lower Churn Risk
+ReturnTransactionRate,0.041510265,-0.6760151684675639,Higher Value → Lower Churn Risk
+ReturnedValue,0.040339924,0.2408464055514881,Higher Value → Higher Churn Risk
+AverageOrderValue,0.037583966,0.5339734683580762,Higher Value → Higher Churn Risk
+IsRepeatCustomer,0.03556954,-0.9736777882521984,Higher Value → Lower Churn Risk
+CustomerTenureDays,0.021284617,-0.2199280071110343,Higher Value → Lower Churn Risk
+ReturnedQuantity,0.0074304366,0.1822148635590266,Higher Value → Higher Churn Risk
+ReturnTransactionCount,0.002597749,0.0870425849189327,Higher Value → Higher Churn Risk

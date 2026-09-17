@@ -1,0 +1,17 @@
+Feature
+RecencyDays
+PurchaseFrequency
+MonetaryValue
+AverageOrderValue
+CustomerTenureDays
+UniqueProducts
+AverageQuantityPerOrder
+MedianPurchaseGap
+MeanPurchaseGap
+ReturnTransactionCount
+ReturnedQuantity
+ReturnedValue
+IsRepeatCustomer
+ReturnTransactionRate
+ProductsPerOrder
+PurchaseActivityRate
