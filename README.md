@@ -146,6 +146,31 @@ The dashboard includes:
 - SHAP feature importance
 - Recommended retention actions
 
+## Live API Deployment
+
+The Flask prediction API is deployed on Render and can be accessed at:
+
+https://customer-churn-retention-intelligence.onrender.com
+
+### API Endpoints
+
+- `GET /` - Check whether the API is running
+- `GET /health` - Check API health and model loading status
+- `GET /features` - View the 16 features required by the model
+- `POST /predict` - Generate churn probability, risk segment, retention priority, and recommended action
+
+### Example Prediction Response
+
+```json
+{
+  "churn_probability": 0.4281,
+  "customer_id": null,
+  "recommended_action": "Continue monitoring and regular customer engagement",
+  "retention_priority": "Monitor",
+  "risk_segment": "Medium"
+}
+```
+
 ## Project Structure
 
 ```text
@@ -162,3 +187,4 @@ customer-churn-retention-intelligence/
 │   └── figures/
 ├── src/
 └── README.md
+```
